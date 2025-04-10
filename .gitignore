@@ -1,4 +1,2 @@
-.helix/
 .cache/
-build/
 compile_commands.json
