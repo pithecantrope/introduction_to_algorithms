@@ -23,7 +23,7 @@ printstack(stack s) {
 
 void
 pushstack(stack* s, int x) {
-        if (s->top == N - 1) {
+        if (s->top == N) {
                 fputs("Overflow\n", stderr);
                 abort();
         }
